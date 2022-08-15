@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+}
+
+/* Main styles */
+.bg-basic {
+    background: rgb(115,34,138);
+    background: linear-gradient(153deg, rgba(115,34,138,1) 0%, rgba(106,29,137,1) 35%, rgba(73,16,128,1) 100%);
+    color: #fff;
+}
+
+.bg-basic-v2 {
+    background: rgb(9,135,216);
+    background: linear-gradient(138deg, rgba(9,135,216,1) 0%, rgba(100,27,191,1) 21%, rgba(220,2,82,1) 100%);
+}
+
+.bg-black {
+    background: rgb(5, 3, 15);
+}
+
+.bg-gray{
+    background: rgb(17, 8, 29);
+}
+.border-basic {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-radius: 40px;
+}
+
+.border-basic-gradient {
+    border-image-source: linear-gradient(138deg, rgba(9,135,216,1) 0%, rgba(100,27,191,1) 21%, rgba(220,2,82,1) 100%);
+}
+
+.main-content p {
+    text-align: justify;
+}
+/* Colors */
+.text-purple {
+    color: rgb(157, 14, 240)
+}
+
+
+
+/* Buttons */
+.btn-basic {
+    background: rgb(9,135,216);
+    background: linear-gradient(138deg, rgba(9,135,216,1) 0%, rgba(100,27,191,1) 21%, rgba(220,2,82,1) 100%);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    width: 250px;
+    border: 0;
+}
+
+.btn-basic:hover {
+    color: rgb(246, 148, 255);
+}
+
+.btn-basic-bg{
+    background: rgb(9,135,216);
+    background: linear-gradient(138deg, rgba(9,135,216,1) 0%, rgba(100,27,191,1) 21%, rgba(220,2,82,1) 100%);
+    color: #fff;
+    border: 0;
+}
+
+.btn-basic-bg:hover{
+    color: rgb(228, 228, 228);
+}
+
+
+/* Header Styles */
+.bg-header {
+    background: url("../images/background/bg_header.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Main content Styles */
+.main-content {}
+.main-content-article {}
+.content-article-item {
+    padding: 40px;
+}
+.content-atricle-desc {
+    color: rgb(131, 131, 131);
+}
+
+.content-article-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-aboutus {}
+
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width:10px
+}
+::-webkit-scrollbar-track{
+    background-color:rgb(207,207,207)
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgb(115,34,138);
+    transition:height 2s
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(151, 35, 184);
+}

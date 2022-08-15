@@ -1,0 +1,6 @@
+nav{
+    border-image-source: linear-gradient(138deg, rgba(9,135,216,1) 0%, rgba(100,27,191,1) 21%, rgba(220,2,82,1) 100%);
+    border-right: 5px solid;
+    border-image-slice: 1;
+    color: #fff;
+}
